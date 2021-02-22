@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  username;
+  myStyles = { showUsername: false };
 
-  constructor() {}
-
+  constructor() { }
 }
